@@ -1,0 +1,10 @@
+
+#content_toggle{
+    justify-items: start !important;
+}
+
+.bar_menu{
+    display: grid;
+    grid-template-rows: 10vw 100vw 50vw;
+    grid-row: auto;
+}

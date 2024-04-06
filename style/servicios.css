@@ -1,0 +1,49 @@
+.servicio>p{
+    color: black;
+    text-align: justify;
+    font-weight: 400;
+}
+.servicio>span{
+    color: black;
+    font-weight:900;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.servicios{
+    background-color:rgba(174, 175, 175, 0.247);
+}
+.servicio{
+    text-align: center;
+    padding: 5vw;
+}
+
+div[class^="img_ser"]{
+    width: 100%;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+
+.img_service1{
+    background-image: url('../images/service1.jpg');
+}
+.img_service2{
+    background-image: url('../images/service2.jpg');
+}
+.img_service3{
+    background-image: url('../images/service3.jpg');
+}
+
+.contenedor_servicios{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column: auto;
+    justify-content: center;
+}
+
+#service{
+    padding: 30px 0;
+    margin: 0;
+}

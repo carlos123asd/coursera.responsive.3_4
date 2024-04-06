@@ -1,0 +1,97 @@
+.sp_nav{
+    margin: 0 40px;
+    font-size: 1.3em;
+}
+button{
+    font-size: 1.3em !important;
+}
+.content_buttons{
+    width: 50vw !important;
+    margin-top: 20px;
+}
+
+.product_image{
+    height: 50vh;
+}
+#product{
+    font-size: 2.3em;
+    padding: 20px 0;
+}
+.num{
+    width: 4vw;
+}
+.portafolio div{
+    grid-template-columns: 50% 50%;
+}
+.portafolio div img:nth-child(n+4){
+    display: block;
+ }
+ .portafolio div img:nth-child(n+8){
+    display: none;
+ }
+ .portafolio div img:nth-child(n+7){
+    grid-column: 2 span;
+ }
+
+ .portafolio h2{
+    font-size: 2.3em;
+ }
+ #customers{
+    font-size: 2.3em;
+ }
+ .contenedor_testimonios{
+    grid-template-columns: 50% 50%;
+    height: 100%;
+ }
+ .testimonio{
+    height: 100%;
+ }
+ .clientes{
+    height: 100%;
+ }
+ .servicio{
+    padding-top: 0;
+ }
+ .contenedor_servicios{
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+ }
+
+ .servicio{
+    padding: 0;
+    font-size: 1.3em;
+ }
+
+ .servicio span{
+    font-size: 1em;
+ }
+
+ .servicio p{
+   font-size: 1em;
+}
+
+ footer a{
+    margin-right: 18vw;
+ }
+
+.content_switch_theme{
+   width: 8vw;
+   height: 3vh;
+}
+
+.button_switch{
+   width: 2.8vw;
+   height: 3vh;
+}
+
+#content_toggle.active_toggle .button_switch{
+   left:2.5rem;
+}
+
+main li p{
+   font-size: 1.2em;
+}
+
+.testimonio p{
+   font-size: 1.3em;
+}

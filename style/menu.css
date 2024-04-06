@@ -1,0 +1,121 @@
+header{
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, rgba(87, 43, 100, 0.5), rgb(89, 16, 156));
+}
+
+header div>h1,p{
+    position: relative;
+    z-index: 2;
+    color: #ffff;
+    font-variant: small-caps;
+    margin: 0;
+}
+header div>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem !important;
+    font-weight: 900;
+}
+header div>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem !important;
+    font-weight: lighter;
+
+}
+.wave{
+    bottom: -60%;
+    left: 0%;
+    width: 100%;
+}
+.box_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main p{
+    color: black;
+}
+
+.btn-primary{
+    background-color: #001848 !important;
+    border: 0 !important;
+}
+
+.btn-outline-primary{
+    border: 1px solid #001848 !important;
+    color: #ffffff !important;
+}
+
+li > a[class^="nav"]{
+    color: #ffffff !important;
+}
+
+li > a[href="#product"]{
+    font-weight:bolder !important;
+}
+
+.content_switch_theme{
+    position: relative;
+    width: 12vw;
+    height: 2.5vh;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: inset 4px 4px 6px #cecece;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button_switch{
+    position: absolute;
+    width: 6vw;
+    height: 2.5vh;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 3px 3px 8px #cecece,
+                -3px -3px 8px #cecece;
+    background-image: url("../images/dark.png") ;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#content_toggle.active_toggle .button_switch{
+    left:1.7rem;
+}
+
+body.active_theme_dark{
+    background: #3a3838;
+    color: #ffffff;
+}
+
+p.active_theme_dark{
+    background: #3a3838 !important;
+    color: #ffffff !important;
+}
+
+#con_service.active_theme_dark{
+    color: #ffffff !important;
+}
+
+#con_service.active_theme_dark .servicio span, #con_service.active_theme_dark .servicio p{
+    color: #ffffff;
+}
+
+#jump_content.active_theme_dark li p{
+    color: #ffffff;
+}
+
+#btn_toggle.img_dark{
+    background-image: url("../images/light.png");
+    box-shadow: 1px 1px 8px #9c1ad8,
+                -1px -1px 8px #9c1ad8;
+}
+
+

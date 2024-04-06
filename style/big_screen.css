@@ -1,0 +1,17 @@
+.portafolio div img:nth-child(n+8){
+    display: block;
+ }
+ .portafolio div img:nth-child(n+8),  .portafolio div img:nth-child(n+7){
+    grid-column: auto;
+ }
+ .portafolio div img:nth-child(3n){
+    grid-column: 2 span;
+    height: 60vh;
+ }
+ .content_switch_theme{
+   width: 6vw;
+}
+
+.button_switch{
+   width: 2.3vw;
+}

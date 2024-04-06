@@ -1,0 +1,107 @@
+.content_about{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 23% 20%;
+    grid-column: auto;
+    justify-content: center;
+}
+div[class^="image"]{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 400px;
+}
+.image_about1{
+    background-image: url(../images/nosotros1.jpeg);
+    background-position: right !important;
+}
+.image_about2{
+    background-image: url(../images/nosotros2.jpeg);
+}
+.image_about3{
+    background-image: url(../images/nosotros3.jpeg);
+}
+
+.box_text{
+    background-color: rgb(89, 16, 156);
+    width: 100%;
+    text-justify: auto;
+    padding-bottom: 80px;
+    padding-left: 30px;
+}
+.box_text p{
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+    width: 15px;
+}
+.raquo_sym{
+    font-size: 8rem !important;
+    height: 100px;
+}
+
+.box_sabermas{
+    background-color: rgb(17, 19, 19);
+    color: #ffff;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: left;
+    padding-bottom: 100px;
+}
+.box_sabermas p{
+    color: #ffff;
+}
+.box_sabermas h1{
+    text-align: center;
+    font-size: 2.3rem;
+}
+.butt_sabermas{
+    border: 2px solid white;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #ffff;
+    font-variant: small-caps;
+}
+.butt_sabermas a{
+    text-decoration: none;
+    color: #ffff;
+}
+.butt_sabermas:hover{
+    border: 2px solid rgb(89, 16, 156);
+    font-size: 1.08rem;
+}
+.text_acercade{
+    font-size: 1rem;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.content_sabermas{
+    display: grid;
+}
+
+.relleno{
+    height: 140px;
+    background-color: #ffff !important;
+}
+.content_soloimagen{
+    display: grid;
+    align-content: center;
+}
+.relleno2{
+    height: 180px;
+    background-color: #ffff !important;
+}
+
+#jump_content_about{
+    margin-bottom: 100px;
+}

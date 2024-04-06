@@ -1,0 +1,40 @@
+.portafolio div{
+    grid-template-columns: 30% 30% 30%;
+}
+.portafolio div img:nth-child(n+8){
+    display: block;
+ }
+ .portafolio div img:nth-child(3n){
+    grid-column: auto;
+    height: 100%;
+ }
+ .portafolio div img:nth-child(7){
+    grid-column: 1/2 span;
+ }
+ .box_product{
+    grid-template-columns: 50% 50%;
+ }
+
+ .testimonio{
+    width: 60%;
+ }
+
+ .clientes{
+    margin-bottom: 30px;
+ }
+
+ .num{
+    width: 2vw;
+ }
+
+ .contenedor_testimonios{
+    overflow-wrap: break-word;
+ }
+
+.content_switch_theme{
+   width: 5vw;
+}
+
+.button_switch{
+   width: 1.8vw;
+}
